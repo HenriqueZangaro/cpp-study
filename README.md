@@ -50,3 +50,16 @@ cpp-study/
 
 Solid foundation in C: pointers, dynamic memory, linked lists, binary search trees.  
 This repository focuses on the C++ layer needed for professional embedded systems work.
+
+## Teaching context
+
+**Current phase:** Phase 1 — OOP in C++  
+**Last completed lesson:** 1.3 — Destructor, new/delete, RAII  
+**Next lesson:** 1.4 — Inheritance
+
+**How I learn:**
+- Guided reasoning — I want to understand the *why*, not copy solutions
+- Expository lesson first, then a practical exercise from scratch
+- All code in English (variables, comments, commits)
+
+**Career goal:** Embedded systems / firmware — Bosch, Continental, John Deere (Europe)

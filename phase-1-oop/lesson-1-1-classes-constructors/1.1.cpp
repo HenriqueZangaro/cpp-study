@@ -7,7 +7,7 @@ class Car {
         std::string brand;
         int year;
     
-    // Constructor
+    // Constructor — automatically called when an object is instantiated, guarantees initialization
     Car(int carSpeed, std::string carBrand, int carYear)
     : speed(carSpeed), brand(carBrand), year(carYear) {}
 };
@@ -15,7 +15,7 @@ class Car {
 int main() {
 
     // Inicializing an object
-    Car car1(350, "Ferrari", 2025);
+    Car car1(350, "Ferrari", 2025); // constructor runs here — no way around it
     Car car2(278, "BMW", 2022);
 
     std::cout << "Your first car is:\n Brand: " << car1.brand 
