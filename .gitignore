@@ -1,0 +1,23 @@
+# Compiled binaries
+*.o
+*.out
+*.exe
+*.elf
+*.bin
+*.hex
+a.out
+
+# Build directories
+build/
+bin/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VS Code
+.vscode/
+
+# Linux
+*~
