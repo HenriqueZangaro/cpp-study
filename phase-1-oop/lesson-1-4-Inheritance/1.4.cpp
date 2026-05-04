@@ -43,7 +43,7 @@ class NDVISensor : public Sensor {
             : Sensor(id, name),
             channel(channel), calibrationFactor(factor) {}
 
-            void describe() {
+            void describe() override {
                 Sensor::describe();
                 std::cout << "NDVI Sensor\n";
                 std::cout << "Channel: " << channel << "\n";
