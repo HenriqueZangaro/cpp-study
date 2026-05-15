@@ -10,8 +10,8 @@ Personal C++ learning repository, following a structured roadmap from OOP fundam
 
 | Phase | Topic | Status |
 |-------|-------|--------|
-| 1 | OOP in C++ — classes, constructors, encapsulation, inheritance, polymorphism | 🔄 In progress |
-| 2 | Modern C++ — STL, smart pointers, templates | ⏳ Upcoming |
+| 1 | OOP in C++ — classes, constructors, encapsulation, inheritance, polymorphism | ✅ Completed |
+| 2 | Modern C++ — STL, smart pointers, templates | 🔄 In progress (Lessons 2.1 - 2.3 done) |
 | 3 | Embedded fundamentals — GPIO, interrupts, protocols | ⏳ Upcoming |
 | 4 | RTOS and real systems — FreeRTOS, STM32 | ⏳ Upcoming |
 | 5 | Career — portfolio and European market | ⏳ Upcoming |
@@ -30,6 +30,9 @@ cpp-study/
 │   ├── lesson-1-5-polymorphism/
 │   └── lesson-1-6-project-bst-class/
 ├── phase-2-modern-cpp/
+│   ├── lesson-2-1-references/
+│   ├── lesson-2-2-vectors-iterators/
+│   └── lesson-2-3-arrays-maps/
 ├── phase-3-embedded/
 ├── phase-4-rtos/
 └── phase-5-career/
@@ -39,9 +42,9 @@ cpp-study/
 
 ## Stack
 
-- Language: C++17
+- Language: C++17 / C++20
 - Compiler: g++
-- IDE: VS Code
+- IDE: VS Code / Cursor
 - OS: Fedora Linux
 
 ---
@@ -53,13 +56,9 @@ This repository focuses on the C++ layer needed for professional embedded system
 
 ## Teaching context
 
-**Current phase:** Phase 1 — OOP in C++  
-**Last completed lesson:** 1.3 — Destructor, new/delete, RAII  
-**Next lesson:** 1.4 — Inheritance
-
 **How I learn:**
 - Guided reasoning — I want to understand the *why*, not copy solutions
 - Expository lesson first, then a practical exercise from scratch
 - All code in English (variables, comments, commits)
 
-**Career goal:** Embedded systems / firmware — Bosch, Continental, John Deere (Europe)
+**Career goal:** Embedded systems / firmware — Bosch, Continental, John Deere (Europe), NVIDIA
