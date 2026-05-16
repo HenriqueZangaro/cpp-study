@@ -11,7 +11,7 @@ Personal C++ learning repository, following a structured roadmap from OOP fundam
 | Phase | Topic | Status |
 |-------|-------|--------|
 | 1 | OOP in C++ — classes, constructors, encapsulation, inheritance, polymorphism | ✅ Completed |
-| 2 | Modern C++ — STL, smart pointers, templates | 🔄 In progress (Lessons 2.1 - 2.3 done) |
+| 2 | Modern C++ — STL, smart pointers, templates | 🔄 In progress (Lessons 2.1 - 2.4 done) |
 | 3 | Embedded fundamentals — GPIO, interrupts, protocols | ⏳ Upcoming |
 | 4 | RTOS and real systems — FreeRTOS, STM32 | ⏳ Upcoming |
 | 5 | Career — portfolio and European market | ⏳ Upcoming |
@@ -33,6 +33,7 @@ cpp-study/
 │   ├── lesson-2-1-references/
 │   ├── lesson-2-2-vectors-iterators/
 │   └── lesson-2-3-arrays-maps/
+│   └── lesson-2-4-smart-pointers/
 ├── phase-3-embedded/
 ├── phase-4-rtos/
 └── phase-5-career/
