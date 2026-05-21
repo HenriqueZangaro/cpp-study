@@ -1,0 +1,30 @@
+# Compiled binaries
+*.o
+*.out
+*.exe
+*.elf
+*.bin
+*.hex
+a.out
+
+# Extensionless lesson binaries (e.g., 1.1, 1.2, main)
+[0-9].[0-9]*
+main
+!*.cpp
+!*.h
+!*.hpp
+
+# Build directories
+build/
+bin/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VS Code
+.vscode/
+
+# Linux
+*~
